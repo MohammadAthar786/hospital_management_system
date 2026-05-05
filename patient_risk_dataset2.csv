@@ -1,0 +1,316 @@
+patient_id,age,gender,blood_pressure,cholesterol,blood_sugar,total_lab_tests,abnormal_lab_count,total_appointments,active_medications_count,is_admitted,bed_type,symptoms,risk_level
+8c095434-75f9-45dd-a7a3-68ad39969a15,45,male,130.5,210.0,105.0,2,2,1,1,0,NONE,"fever,cough",MEDIUM
+4658dee5-f555-4d60-8665-b754e7f3aab5,60,female,145.0,255.0,132.0,3,3,2,1,0,NONE,"fever,cough",HIGH
+9bf4bd33-9c88-4311-b3d0-b18b9d454b74,35,male,118.0,182.0,93.0,2,0,1,0,0,NONE,"fever,cough",LOW
+88664562-2098-4e53-a383-b655927dc87a,52,female,140.0,235.0,118.0,2,2,1,1,0,NONE,"fever,cough",MEDIUM
+91ede89a-a5d1-444d-9cb2-6a148823f17f,58,male,158.0,278.0,145.0,4,4,3,3,0,NONE,"fever,cough",HIGH
+368aeb57-0db0-4f66-b3d2-8eaedde35770,28,female,110.0,168.0,87.0,1,0,1,0,0,NONE,"fever,cough",LOW
+6a34e754-e2d2-4823-b687-070aedfede3f,42,male,126.0,198.0,101.0,1,0,0,1,0,NONE,"fever,cough",LOW
+b9b1d0b7-aef9-4079-8caa-43bc36e6e382,33,female,115.0,175.0,90.0,0,0,1,0,0,NONE,"fever,cough",LOW
+591787a3-43c2-4798-836f-598b09bbb0bc,65,male,162.0,290.0,155.0,2,2,2,2,0,NONE,"fever,cough",HIGH
+1c63a202-e2e8-4cff-bab2-67546aa144e3,38,female,122.0,192.0,97.0,1,0,1,0,0,NONE,"fever,cough",LOW
+2cdbcc6f-0585-4ea9-8ac7-0e8312f00c0f,47,male,135.0,220.0,110.0,0,0,1,1,0,NONE,"fever,cough",MEDIUM
+f8de9537-3d59-4c0b-970c-d931a23467fe,55,female,148.0,262.0,128.0,2,2,1,1,0,NONE,"fever,cough",HIGH
+1444627f-97aa-4c86-bdce-c9f708ddc2e3,29,male,112.0,160.0,85.0,0,0,1,0,0,NONE,"fever,cough",LOW
+1464e20a-2673-4c41-a4f6-a11bde07ecaa,44,female,132.0,215.0,108.0,1,1,1,1,0,NONE,"fever,cough",MEDIUM
+b085c998-28aa-4a17-abc2-da965976b5db,70,male,168.0,305.0,160.0,4,4,3,3,0,NONE,"fever,cough",HIGH
+645d1d72-92ac-4a5b-9d4d-e73811f33b66,83,male,145.0,266.0,97.0,6,2,1,2,0,NONE,"dizziness,nausea",MEDIUM
+06bafcb6-dbc7-4ee2-a067-793149e948b1,60,male,176.0,288.0,241.0,4,0,1,2,1,ICU,"fever,cough",MEDIUM
+8e1e2280-355f-4b00-9499-602c34072827,60,male,133.0,228.0,90.0,3,3,3,2,1,GENERAL,"fever,cough",MEDIUM
+e1d9185e-740e-4e49-b3a0-c82e5dabece4,22,other,174.0,182.0,257.0,5,1,2,1,0,NONE,"fever,cough",MEDIUM
+a2904fb3-d3a2-4bc0-955b-556e1566230c,69,female,154.0,186.0,248.0,4,0,4,1,0,NONE,"fatigue,headache",MEDIUM
+bd55465e-33b9-4bfd-8faf-d99a61711f14,18,other,104.0,240.0,70.0,4,1,3,3,1,PRIVATE,"chest pain,breathlessness",MEDIUM
+448bb15a-b552-49c4-99cf-63985e0e366f,75,other,157.0,208.0,184.0,4,1,2,1,1,GENERAL,"fever,cough",MEDIUM
+8df1a72b-09a4-4f64-b4a6-8cd9769c97d3,71,other,151.0,226.0,231.0,6,2,4,0,0,NONE,"body pain,weakness",HIGH
+9c76d8d3-2b9a-4119-94da-f3eb478516ac,62,other,163.0,279.0,248.0,4,0,2,1,0,NONE,"fatigue,headache",MEDIUM
+8c479571-e9af-4852-98ed-178c43203813,41,male,176.0,254.0,79.0,5,3,3,0,0,NONE,"fever,cough",HIGH
+ca732cea-57ed-4b45-ac2f-89f18a41f1b8,79,female,109.0,206.0,176.0,6,0,1,1,0,NONE,"fatigue,headache",LOW
+4fc903c4-7b9a-4866-85bc-a979a825d16d,20,male,95.0,194.0,222.0,6,2,3,1,0,NONE,"fever,cough",MEDIUM
+064bb291-0d1a-47bb-b1c4-73f14fbe3c73,49,other,116.0,242.0,166.0,6,2,4,1,0,NONE,"body pain,weakness",MEDIUM
+9af71f98-ad2b-48c8-9a45-d65851c4bb43,37,male,124.0,276.0,88.0,4,0,2,0,0,NONE,"dizziness,nausea",LOW
+d810dc28-7a0a-49f2-8e23-2f59e882011e,31,male,130.0,164.0,201.0,6,1,3,1,0,NONE,"fatigue,headache",MEDIUM
+3ab79a1c-a1ef-4aec-9c90-9b6036ed9f68,37,male,177.0,140.0,252.0,3,3,3,3,0,NONE,"chest pain,breathlessness",HIGH
+d655b023-8695-4cc8-9766-7efc61ac664f,37,other,144.0,183.0,142.0,5,1,3,3,0,NONE,"fever,cough",MEDIUM
+b2337f27-9bde-48c1-b2fd-1678d4af982d,50,other,161.0,248.0,216.0,3,1,4,1,0,NONE,"fever,cough",HIGH
+bbc34121-9702-42ce-83a8-9b047c2da2b2,65,other,141.0,300.0,260.0,3,0,2,2,0,NONE,"dizziness,nausea",MEDIUM
+79d008b3-1a43-4429-9f39-2dc1e59c8dc9,18,male,138.0,249.0,92.0,3,2,4,3,1,PRIVATE,"chest pain,breathlessness",MEDIUM
+4bb5946f-680a-4a95-98b3-f7a15edaa001,63,male,141.0,255.0,139.0,3,0,4,2,0,NONE,"fever,cough",MEDIUM
+5c9d79d9-acaf-4cac-8b5b-230bb49fc3b2,21,female,109.0,142.0,216.0,6,3,4,0,0,NONE,"fever,cough",MEDIUM
+80c1bf4a-3a0f-4ea0-a2b5-98738d32ce94,82,male,110.0,245.0,231.0,5,3,1,3,0,NONE,"chest pain,breathlessness",HIGH
+9a7a2fac-a159-460e-82e6-ea7f9232bc2d,74,female,155.0,210.0,70.0,4,2,2,3,0,NONE,"body pain,weakness",MEDIUM
+e0cf20db-a4ef-46a2-aa40-4ef64d81f40c,30,female,151.0,145.0,132.0,6,5,2,0,1,GENERAL,"dizziness,nausea",MEDIUM
+35fc8040-2b24-4b13-997f-86ba1245eabe,37,other,104.0,188.0,220.0,4,1,1,3,0,NONE,"fever,cough",MEDIUM
+353bfe23-8c20-4558-a4d5-0da699fc72f3,44,other,124.0,199.0,107.0,3,2,3,0,0,NONE,"body pain,weakness",LOW
+e1abeb69-6d11-4f92-b53e-da86b7ae5e4e,31,female,138.0,292.0,214.0,4,3,3,1,0,NONE,"dizziness,nausea",HIGH
+09b98c27-10b9-44b0-9205-0698dc245185,36,male,107.0,155.0,142.0,6,1,4,3,0,NONE,"fatigue,headache",LOW
+f9085f0b-189a-4908-ae36-64523c8c9fd9,34,female,139.0,153.0,139.0,5,2,1,0,0,NONE,"fever,cough",LOW
+19512071-8f0a-4e36-bd23-8dc6d9575953,45,other,157.0,299.0,151.0,3,1,2,1,0,NONE,"fever,cough",MEDIUM
+15aa04c2-7966-46b4-bf93-a312d5afb947,81,other,145.0,236.0,124.0,3,0,4,1,0,NONE,"body pain,weakness",MEDIUM
+a33f6728-4506-4604-b6bd-712410cc923f,61,male,121.0,252.0,186.0,6,1,1,2,0,NONE,"body pain,weakness",MEDIUM
+8eee1c6b-bd5e-469c-8263-b045180dcd63,67,male,155.0,177.0,135.0,6,5,1,0,0,NONE,"chest pain,breathlessness",MEDIUM
+cd896c4e-9b71-4aca-a72f-2e1d0bc493ba,69,other,105.0,171.0,125.0,5,1,4,2,0,NONE,"body pain,weakness",LOW
+e5b0e02c-a179-4a4d-94b2-3eaa2b9f8e4f,61,female,142.0,192.0,143.0,6,1,1,1,0,NONE,"chest pain,breathlessness",MEDIUM
+6b505f1d-a510-4688-a20a-459e93977686,53,male,100.0,234.0,80.0,3,2,1,2,0,NONE,"fever,cough",MEDIUM
+6024bfcb-e612-4c8c-8bf6-63ee578ad0c9,20,other,109.0,243.0,222.0,6,0,3,1,0,NONE,"chest pain,breathlessness",MEDIUM
+ee92c560-393a-4906-9646-f8232dbfd409,23,other,105.0,263.0,125.0,3,1,4,1,0,NONE,"fatigue,headache",MEDIUM
+c0554949-c263-48da-a67d-f05460589875,55,male,179.0,240.0,174.0,4,0,2,3,0,NONE,"chest pain,breathlessness",MEDIUM
+a91a6c5e-b73b-4fb2-b97d-4e4ed8baf334,41,other,151.0,296.0,98.0,3,1,2,1,0,NONE,"dizziness,nausea",MEDIUM
+e0acb5e6-3105-445d-a1ef-ec7362b3ab3d,36,female,131.0,265.0,147.0,6,2,1,1,0,NONE,"chest pain,breathlessness",MEDIUM
+da112ab2-1947-4948-b59f-b4d9938d54a6,45,other,143.0,177.0,255.0,3,1,4,2,0,NONE,"fever,cough",MEDIUM
+c9504d47-5741-4c9a-94ad-4cca7239672c,65,other,110.0,288.0,204.0,6,4,3,1,0,NONE,"dizziness,nausea",HIGH
+8c42a550-0e39-4b09-9638-08acad1c93e1,85,other,173.0,237.0,106.0,3,0,3,0,0,NONE,"body pain,weakness",MEDIUM
+faf0d94f-1034-4f50-830e-c74191f46e83,24,male,160.0,201.0,213.0,5,2,1,3,0,NONE,"chest pain,breathlessness",MEDIUM
+0fc95c5d-0994-4870-af0c-220bcb560118,41,female,104.0,285.0,131.0,3,2,2,0,1,ICU,"fatigue,headache",MEDIUM
+f001881d-7090-42c6-b215-b764710ca2bd,18,male,160.0,223.0,83.0,5,0,3,1,0,NONE,"dizziness,nausea",MEDIUM
+5200100b-64d5-4b56-9f67-e6f6e68f0f98,71,other,110.0,270.0,211.0,6,1,3,2,0,NONE,"fatigue,headache",MEDIUM
+a8ce844c-f799-4d14-8697-6635f4d38bc6,66,other,123.0,144.0,77.0,3,1,1,0,0,NONE,"fever,cough",LOW
+e1d2667b-6467-4174-8f49-e6ef10fe7ac7,55,other,142.0,220.0,255.0,4,2,2,0,0,NONE,"body pain,weakness",MEDIUM
+639c1fe3-25af-4367-920b-e0f1d11ea90b,33,female,115.0,213.0,132.0,5,0,2,2,0,NONE,"dizziness,nausea",LOW
+b79c19f5-4292-4aea-8c1b-cfd65eeaf716,65,other,137.0,145.0,100.0,5,2,2,2,0,NONE,"chest pain,breathlessness",LOW
+e1ea907d-b0d1-4878-88a6-e1e4fc11e925,37,female,130.0,257.0,134.0,6,1,1,1,1,ICU,"chest pain,breathlessness",MEDIUM
+2badf217-21b3-4979-923d-2ab11e0df708,84,male,152.0,205.0,240.0,5,1,4,2,0,NONE,"fever,cough",MEDIUM
+255018dc-985f-47cd-99e6-58b6df227e98,33,female,123.0,156.0,244.0,3,1,3,0,1,PRIVATE,"fatigue,headache",MEDIUM
+ee90386d-d225-4b8b-a1fe-8d36650cf4d8,76,other,172.0,182.0,186.0,4,2,1,1,0,NONE,"body pain,weakness",MEDIUM
+2cb1176e-ec8b-4aae-8ab7-924b9a5bb67e,79,female,169.0,279.0,79.0,4,1,1,0,0,NONE,"body pain,weakness",MEDIUM
+6120279d-cdbe-466a-be60-086ce2cf6d93,32,other,125.0,243.0,249.0,3,0,1,0,0,NONE,"body pain,weakness",MEDIUM
+56909cfa-0526-4f1b-9372-d6e2af09f599,35,male,177.0,151.0,170.0,3,0,4,3,1,PRIVATE,"fatigue,headache",MEDIUM
+ee6420c3-75c2-4d3c-b417-3e925dc325c0,33,other,172.0,150.0,216.0,6,3,1,0,0,NONE,"dizziness,nausea",HIGH
+d6d90c4d-ac30-4b8e-b279-f3b4268815a2,64,female,134.0,256.0,216.0,4,2,2,0,1,ICU,"fever,cough",MEDIUM
+5df65ecc-f09a-450b-a4e6-f908afd578bf,39,other,111.0,250.0,184.0,4,2,4,1,0,NONE,"fever,cough",MEDIUM
+210689ee-c8b1-4713-8b50-82306b11e0b7,54,female,129.0,223.0,98.0,5,0,4,0,0,NONE,"body pain,weakness",LOW
+a6df62a5-28cf-4610-91ac-4448f35e3bf7,34,female,138.0,293.0,166.0,5,2,4,0,0,NONE,"fever,cough",MEDIUM
+f4cdbdf3-2a1a-4940-9870-76f75bce6374,66,female,96.0,162.0,239.0,6,2,3,1,0,NONE,"body pain,weakness",MEDIUM
+9884d8db-339e-4651-8d24-1cd9abfce2e5,81,other,129.0,132.0,209.0,6,2,4,1,1,PRIVATE,"body pain,weakness",MEDIUM
+117d31f8-45ed-41f8-933d-f9779e8a233a,84,other,105.0,278.0,224.0,6,1,1,0,0,NONE,"chest pain,breathlessness",MEDIUM
+0bfd2417-86bf-49ec-95f0-147f2cf91752,40,male,164.0,288.0,202.0,4,3,3,1,1,GENERAL,"dizziness,nausea",HIGH
+b2140575-fe9d-4abc-a78d-45211f3ee80e,24,other,174.0,189.0,258.0,3,1,1,2,1,GENERAL,"chest pain,breathlessness",MEDIUM
+9ba41bea-fa0a-4848-9b2a-bac966762f5d,60,other,131.0,254.0,247.0,6,0,2,3,1,GENERAL,"chest pain,breathlessness",MEDIUM
+effef831-81e5-4149-a2a2-2d8ff5ed520d,72,male,99.0,248.0,207.0,5,2,1,0,0,NONE,"dizziness,nausea",MEDIUM
+6bf086d6-1282-4ae9-95ee-9784d633eb5b,73,other,110.0,238.0,109.0,4,2,3,3,0,NONE,"fever,cough",MEDIUM
+4a37425b-75f5-4f4b-bb39-8641d17991c8,19,female,144.0,298.0,252.0,3,1,3,0,0,NONE,"fever,cough",HIGH
+fc1a4168-9bf4-4af9-a59c-6b2b69a81e88,44,other,132.0,233.0,235.0,5,3,3,3,0,NONE,"chest pain,breathlessness",HIGH
+c8ac41ff-a114-4cbb-93a6-539efcf4ff46,20,female,110.0,191.0,105.0,3,1,1,0,0,NONE,"body pain,weakness",LOW
+9eeb1f3a-4912-41ca-a71e-b507332fa5eb,76,male,165.0,185.0,132.0,5,2,3,0,1,PRIVATE,"body pain,weakness",MEDIUM
+cddee152-1da2-4380-92b5-7bb8a824edf1,74,other,154.0,207.0,260.0,3,2,2,2,0,NONE,"dizziness,nausea",MEDIUM
+fb036cde-76d3-4ea0-bd76-f944075c7906,29,male,133.0,222.0,104.0,4,2,4,0,0,NONE,"fever,cough",MEDIUM
+d947326e-de00-448a-9921-704605ab1626,22,male,176.0,204.0,94.0,4,2,1,0,0,NONE,"dizziness,nausea",MEDIUM
+4a5c9dcc-5723-4a09-9f89-54d322abd3e4,73,other,138.0,243.0,126.0,3,0,2,0,0,NONE,"fatigue,headache",LOW
+81dd57fa-b229-420c-8bad-45e914e9bd79,28,female,158.0,219.0,253.0,5,1,4,2,0,NONE,"chest pain,breathlessness",MEDIUM
+3eba4ab7-84fc-4205-8191-f3c94ccc1500,18,female,112.0,280.0,155.0,5,3,3,0,0,NONE,"chest pain,breathlessness",MEDIUM
+8a4ea62d-a3c0-40b4-a881-105ca1037452,74,other,142.0,217.0,166.0,5,2,2,1,0,NONE,"chest pain,breathlessness",MEDIUM
+d26a61d9-57c3-4539-b9d2-bf49eb464536,71,other,156.0,251.0,77.0,6,1,2,0,1,GENERAL,"fever,cough",MEDIUM
+0e6c9b13-b940-4d85-add5-fb037624bdb9,42,female,145.0,145.0,84.0,5,0,1,2,0,NONE,"chest pain,breathlessness",LOW
+179b4a6a-4ae6-4def-927a-c6a72aace3cb,68,other,168.0,136.0,196.0,5,1,4,2,0,NONE,"chest pain,breathlessness",MEDIUM
+b8ddde86-91f0-4eac-8eac-dac90168181b,56,other,107.0,264.0,181.0,3,1,4,1,0,NONE,"chest pain,breathlessness",MEDIUM
+f444f39b-487e-4811-a740-bff84dee7783,22,male,166.0,236.0,131.0,3,0,3,0,0,NONE,"fever,cough",MEDIUM
+d232e037-e298-4920-bf28-98c9e4526158,66,male,103.0,293.0,212.0,6,3,2,0,0,NONE,"fatigue,headache",HIGH
+7ac0fe1f-3c0b-4357-8627-5ca265867fb8,47,male,95.0,149.0,147.0,4,1,1,1,0,NONE,"fatigue,headache",LOW
+b2cd2682-49df-40a7-bd72-1619b2fe6286,66,male,136.0,210.0,155.0,5,2,1,1,0,NONE,"dizziness,nausea",LOW
+b4fc466a-9360-46cd-ae36-049ca76647b7,84,male,130.0,192.0,121.0,4,0,2,2,0,NONE,"body pain,weakness",LOW
+384f36dd-74c4-4f74-9e1a-7e082cbd890b,74,other,145.0,187.0,80.0,6,2,1,2,0,NONE,"dizziness,nausea",MEDIUM
+240b9f4a-a9f2-49f0-b1c4-d4dfc381469f,62,female,106.0,240.0,246.0,4,1,1,1,1,PRIVATE,"chest pain,breathlessness",MEDIUM
+89e3a702-0b0d-436e-9807-b7a082ba7c6a,49,female,99.0,294.0,84.0,4,1,1,1,0,NONE,"dizziness,nausea",MEDIUM
+bc017464-f2e5-49a3-a798-9812fa003544,25,female,120.0,188.0,218.0,5,4,1,1,0,NONE,"body pain,weakness",MEDIUM
+81294156-4b13-4840-80df-2a358d17f4b5,36,female,97.0,291.0,242.0,4,0,3,0,0,NONE,"dizziness,nausea",MEDIUM
+c7e9396d-1e59-4186-8884-7a04db110836,42,other,134.0,175.0,206.0,3,0,4,2,0,NONE,"body pain,weakness",LOW
+50a47fac-21d2-4c63-bfa2-c2b1e5da229f,78,female,102.0,166.0,135.0,5,2,4,0,0,NONE,"body pain,weakness",LOW
+c53b83c2-4fce-43d5-8c22-3366ac76f43b,34,male,157.0,211.0,208.0,3,0,4,1,0,NONE,"fever,cough",MEDIUM
+fea2cf4d-3026-4ac8-915d-0bf7b50f8976,23,female,148.0,189.0,134.0,3,0,2,2,1,PRIVATE,"fatigue,headache",LOW
+ab2f46b1-2ed3-4450-8f87-4b701ec50125,41,male,121.0,284.0,141.0,4,2,4,0,0,NONE,"fever,cough",MEDIUM
+805541f4-f532-4521-adc0-16029b944fef,58,male,164.0,152.0,199.0,6,1,2,0,0,NONE,"body pain,weakness",MEDIUM
+f915984d-bf4a-436a-bf00-d0990614ca62,55,other,98.0,201.0,260.0,3,0,2,1,0,NONE,"body pain,weakness",LOW
+610d8300-1e24-4988-8043-ddf2cd70e4ad,33,female,159.0,190.0,184.0,4,0,1,2,0,NONE,"body pain,weakness",MEDIUM
+3e9ed33c-c7e4-4422-b1ae-6c25e45524d7,85,other,159.0,140.0,208.0,5,0,2,2,0,NONE,"fever,cough",MEDIUM
+f1d4d955-792f-495e-bb2d-25e208e9139a,40,male,177.0,163.0,156.0,4,3,4,0,0,NONE,"chest pain,breathlessness",MEDIUM
+32f12d4e-f227-4f1a-8641-7ed69da5021f,29,female,97.0,291.0,240.0,5,2,4,0,1,GENERAL,"body pain,weakness",MEDIUM
+1dc21a87-9758-4f78-af06-de47e4f666b4,68,male,172.0,141.0,109.0,3,2,4,2,0,NONE,"fever,cough",MEDIUM
+8d2e5f43-65e7-43a8-9563-ba389c24f103,48,male,157.0,132.0,70.0,3,0,1,0,0,NONE,"chest pain,breathlessness",LOW
+6e2205d1-d4eb-4a06-b020-430afbdd6e72,74,other,124.0,185.0,76.0,5,2,2,0,0,NONE,"chest pain,breathlessness",LOW
+ddf76a6e-73ab-45fa-9a62-05b7a0a957d1,30,male,148.0,292.0,141.0,5,0,4,2,0,NONE,"body pain,weakness",MEDIUM
+f4a167bf-a699-4996-8d50-d1a5a1071674,18,male,97.0,255.0,78.0,4,1,2,1,0,NONE,"fever,cough",MEDIUM
+43c94156-72d1-4e68-b0e6-6f217c612ad7,48,male,161.0,293.0,134.0,3,0,4,2,0,NONE,"chest pain,breathlessness",MEDIUM
+c9c106ad-7e48-4182-a014-df42031e0d7c,33,male,108.0,178.0,201.0,4,1,2,0,0,NONE,"body pain,weakness",MEDIUM
+cfa22bf1-daed-4004-8f8b-5b2fc8abdf57,34,male,122.0,196.0,162.0,4,0,1,2,0,NONE,"chest pain,breathlessness",LOW
+5aee72df-2a77-4e04-a64d-b8bf9c3e3eda,40,female,179.0,285.0,98.0,5,1,3,0,0,NONE,"dizziness,nausea",MEDIUM
+74a74511-47b6-48b4-a438-575604d97078,29,male,146.0,181.0,120.0,3,0,4,0,0,NONE,"fever,cough",LOW
+63ae511f-6ccb-4db4-87bc-390b124ad034,57,other,98.0,230.0,228.0,4,0,3,0,1,ICU,"chest pain,breathlessness",MEDIUM
+e41e0f23-a53b-4ce9-abd6-580746715b6f,79,male,170.0,189.0,137.0,3,2,4,0,1,GENERAL,"fever,cough",MEDIUM
+5f59893c-17fe-42c5-b6c4-6c670a5de693,44,male,154.0,203.0,149.0,5,1,1,1,0,NONE,"dizziness,nausea",MEDIUM
+6e4162b9-5734-4031-acac-f7f8c0affc9f,23,other,145.0,156.0,204.0,3,0,3,1,0,NONE,"dizziness,nausea",MEDIUM
+425bb6ba-7a9b-4af5-a67c-b92e1316ecc9,63,male,112.0,160.0,258.0,3,1,1,0,0,NONE,"dizziness,nausea",MEDIUM
+8cc7cca8-1c20-40b1-929e-e856232f0b19,33,female,176.0,239.0,146.0,3,0,3,1,0,NONE,"fatigue,headache",MEDIUM
+0aa9e62b-bff7-4cf6-8588-23134fbd26dd,53,other,151.0,199.0,244.0,4,1,1,3,0,NONE,"fatigue,headache",MEDIUM
+d0314b84-f011-461e-84e0-a2a628d5e62e,73,male,95.0,176.0,118.0,4,1,4,1,0,NONE,"fever,cough",LOW
+ba64aadb-2e15-470d-ae83-c9ce4eb3a078,76,male,171.0,141.0,83.0,3,0,1,1,0,NONE,"body pain,weakness",LOW
+2fa581e3-68d3-4cba-8b8f-fa748c035e6c,40,female,134.0,213.0,214.0,4,1,4,0,1,PRIVATE,"fever,cough",MEDIUM
+5f6e97a5-b945-4c9c-825b-4e6c7e00a7e5,67,female,171.0,147.0,192.0,6,0,3,1,0,NONE,"fever,cough",MEDIUM
+b42adf31-21cc-43d0-939e-1ac7630025e4,39,male,171.0,147.0,108.0,5,2,4,1,0,NONE,"chest pain,breathlessness",MEDIUM
+17e2fbf9-5f69-4041-8081-7ff1a9dc0bbe,46,other,141.0,254.0,104.0,4,2,2,1,0,NONE,"body pain,weakness",MEDIUM
+206c3427-b76f-47c6-a5c7-edf01afcfc48,18,male,119.0,136.0,260.0,6,3,3,2,1,GENERAL,"dizziness,nausea",MEDIUM
+a0771bcb-b76e-4a0a-8a3d-649d0d437c5e,72,female,118.0,247.0,83.0,6,2,2,1,0,NONE,"fatigue,headache",MEDIUM
+b745c1cf-9c0a-4a9d-8368-dd8cad0faf77,32,male,168.0,138.0,154.0,6,2,1,2,0,NONE,"fatigue,headache",MEDIUM
+fbb6c1a4-183f-46b4-8f73-0699f5ca66d1,43,male,105.0,178.0,126.0,4,1,1,0,0,NONE,"chest pain,breathlessness",LOW
+132f2ec3-c8be-4782-9617-fd10caa15a72,36,male,128.0,250.0,225.0,6,2,4,1,0,NONE,"chest pain,breathlessness",MEDIUM
+99a00768-a155-4e06-a918-8f0bf70e75b7,73,female,135.0,236.0,98.0,5,3,4,2,0,NONE,"dizziness,nausea",MEDIUM
+b82a09ed-b10a-4227-b428-ad46ccfc47af,56,female,99.0,141.0,245.0,4,1,2,0,0,NONE,"dizziness,nausea",MEDIUM
+0aa5b93f-d6d0-4af2-ba03-cd47b1eeb266,25,female,122.0,217.0,252.0,3,1,2,1,0,NONE,"dizziness,nausea",MEDIUM
+ab2a3910-1fd1-473a-a9a1-ca3e49e5a278,44,male,178.0,216.0,183.0,5,0,3,1,0,NONE,"fever,cough",MEDIUM
+e6241066-4d7f-4562-a820-87e2bb8f1373,29,other,101.0,201.0,70.0,6,2,2,0,0,NONE,"chest pain,breathlessness",LOW
+04236e81-b0d2-4611-a364-39ce9c62a806,43,female,112.0,266.0,154.0,4,2,4,2,0,NONE,"chest pain,breathlessness",MEDIUM
+e9772d22-3570-475b-8c52-e225e49ce986,69,other,144.0,279.0,110.0,6,3,4,1,1,GENERAL,"dizziness,nausea",HIGH
+60e95ce0-392e-4890-89e1-16e4d7148a0c,19,male,102.0,255.0,72.0,3,1,4,2,0,NONE,"fatigue,headache",MEDIUM
+76370514-c721-4899-8b65-c2b0f9258fc0,55,female,154.0,174.0,126.0,3,2,1,2,0,NONE,"chest pain,breathlessness",MEDIUM
+84183ead-077e-48d7-bb61-1505a7fd1353,47,female,125.0,278.0,233.0,6,3,4,2,0,NONE,"fever,cough",HIGH
+24f7b6d6-84ce-430f-8886-f2aa19f9446f,68,female,123.0,212.0,178.0,4,1,1,0,0,NONE,"body pain,weakness",MEDIUM
+956a51c6-0717-427f-ab6b-e904378b4ec3,73,other,106.0,294.0,226.0,3,1,3,3,1,GENERAL,"dizziness,nausea",MEDIUM
+60cccfd0-f1e2-4df0-8e09-46572ce06211,44,female,149.0,250.0,155.0,6,1,2,3,0,NONE,"fever,cough",MEDIUM
+2282ada9-cc8f-4f98-b3a8-c57fd99fd37e,55,female,136.0,170.0,144.0,5,0,4,1,0,NONE,"chest pain,breathlessness",LOW
+98570fb8-b49f-4285-8863-3818b0c5b066,84,male,156.0,168.0,177.0,3,1,2,2,1,ICU,"body pain,weakness",MEDIUM
+16b9d616-377e-406a-9e9d-f4eb701e5f90,36,other,105.0,265.0,215.0,6,0,1,0,0,NONE,"dizziness,nausea",MEDIUM
+74780d02-c43e-4d8a-8889-b2ad2965383e,66,male,112.0,218.0,218.0,6,1,3,2,0,NONE,"body pain,weakness",MEDIUM
+f5fa9edc-c64e-4b3e-9771-c663cdd63dcf,64,female,143.0,275.0,215.0,6,0,3,2,0,NONE,"fatigue,headache",MEDIUM
+a507810c-54a1-42a7-952d-02644ad094e3,63,female,120.0,170.0,232.0,3,1,3,3,0,NONE,"fatigue,headache",MEDIUM
+e3486bd9-cf32-43a3-8a4f-00501237f76f,83,other,157.0,135.0,215.0,6,0,1,2,0,NONE,"fatigue,headache",MEDIUM
+06406460-4dbd-4cac-885c-0b9ce6cb5283,24,male,106.0,261.0,112.0,5,1,1,2,0,NONE,"dizziness,nausea",MEDIUM
+2f4dc420-2dae-4889-b580-3d5671dc679e,50,female,107.0,219.0,220.0,4,1,3,0,1,ICU,"dizziness,nausea",MEDIUM
+c3c85d84-1b83-45e3-97c4-4e18c0906425,36,female,166.0,252.0,181.0,3,1,2,1,0,NONE,"fever,cough",HIGH
+8537c45f-c9a0-474c-b190-bd9bf3b592d5,49,male,135.0,240.0,228.0,6,4,4,0,0,NONE,"fatigue,headache",HIGH
+94ca2754-a918-422c-a54c-eb0708e3e5a0,60,other,99.0,156.0,111.0,6,2,1,0,0,NONE,"body pain,weakness",LOW
+7fbc4c02-0ea9-4ad8-aa85-50dbc8c4c479,52,female,167.0,174.0,75.0,5,1,2,1,0,NONE,"fatigue,headache",MEDIUM
+5ce41294-9fe2-42a7-99ef-d9c4659281a7,63,male,163.0,215.0,196.0,3,0,4,0,0,NONE,"fever,cough",MEDIUM
+97f31f22-00e6-45b7-ad6e-c9c05633fb29,69,other,169.0,297.0,233.0,3,0,2,1,0,NONE,"chest pain,breathlessness",MEDIUM
+1f604de9-3e71-4e66-b363-55b88e0ba054,85,male,137.0,230.0,246.0,4,2,4,1,0,NONE,"chest pain,breathlessness",MEDIUM
+6c309aa4-fb4a-4fc3-8f40-a78e1a4bdc45,64,male,165.0,149.0,111.0,6,1,2,0,1,ICU,"dizziness,nausea",MEDIUM
+028278fb-2041-4f73-ae74-0a45195e946b,84,female,112.0,234.0,230.0,3,2,1,2,0,NONE,"dizziness,nausea",MEDIUM
+0ec38082-8860-4186-9d6f-ba3f5360a4e1,30,female,107.0,215.0,165.0,3,0,4,3,0,NONE,"dizziness,nausea",LOW
+001ad3cb-df5d-484b-b3bf-8396c9d36a98,24,male,111.0,296.0,84.0,4,2,1,0,1,PRIVATE,"fatigue,headache",MEDIUM
+2e5f2f14-24ba-41b1-81a9-61a96e9a8771,67,other,140.0,174.0,197.0,3,0,2,0,0,NONE,"chest pain,breathlessness",LOW
+2020221c-0b44-425e-a286-d973d39bf7ff,76,female,109.0,221.0,85.0,4,0,3,3,0,NONE,"dizziness,nausea",LOW
+e1598546-3a8f-4721-b680-87c15f92042e,83,other,133.0,286.0,70.0,5,1,4,2,0,NONE,"dizziness,nausea",MEDIUM
+9698685a-9761-428b-afdc-515381bbd8ee,44,other,142.0,252.0,75.0,6,2,4,3,0,NONE,"dizziness,nausea",MEDIUM
+9c3132f7-f9c1-4a27-ab81-c7d8806edaee,32,female,138.0,240.0,163.0,5,2,3,2,0,NONE,"fatigue,headache",MEDIUM
+583f047f-ea65-4a7e-a0d7-dc636e36a5c5,18,male,155.0,225.0,174.0,4,3,3,2,0,NONE,"fever,cough",HIGH
+968513fe-1799-4fde-bd9c-cdc92a72adc0,61,other,149.0,181.0,104.0,4,0,4,0,0,NONE,"body pain,weakness",LOW
+099e6913-f77c-4506-a35d-19687c924d60,83,female,153.0,155.0,237.0,6,2,3,0,0,NONE,"chest pain,breathlessness",MEDIUM
+ca526b6d-c5b9-42e6-9267-2975a67834f4,31,other,170.0,230.0,219.0,6,3,3,0,0,NONE,"dizziness,nausea",HIGH
+62b898dd-fd1a-4e6c-a70f-3b9d7bda5e70,35,female,166.0,154.0,188.0,4,2,2,1,0,NONE,"fever,cough",MEDIUM
+3034a246-5341-4c6d-9ef3-f78401aa80bf,73,female,169.0,217.0,83.0,5,3,1,1,0,NONE,"fever,cough",MEDIUM
+740f32cf-8bac-434f-be83-fec48c181f87,69,male,100.0,160.0,231.0,5,2,1,2,0,NONE,"dizziness,nausea",MEDIUM
+814f436a-0152-4d60-92ac-17885e041eb7,76,other,113.0,165.0,253.0,4,0,3,3,0,NONE,"dizziness,nausea",LOW
+66bc6c44-26a3-44cc-af66-da878f5b0808,44,other,180.0,157.0,98.0,6,1,3,2,0,NONE,"fatigue,headache",MEDIUM
+c8c965f1-a79c-4abb-a524-60392ae97501,35,male,148.0,300.0,257.0,6,1,4,0,0,NONE,"chest pain,breathlessness",HIGH
+233f6407-c890-4efd-90fa-75c338495733,32,male,116.0,158.0,165.0,4,1,4,3,0,NONE,"fever,cough",MEDIUM
+5be90838-b9c8-4c83-93f2-f3aef3e5cb38,67,other,166.0,291.0,198.0,3,2,4,1,0,NONE,"chest pain,breathlessness",HIGH
+ae933a41-0c8c-4e4c-8516-21be406f0e97,34,female,103.0,243.0,80.0,5,2,4,0,0,NONE,"fatigue,headache",MEDIUM
+80ac2a2d-f22a-4558-ba1a-8a6dcab847cd,21,female,109.0,210.0,248.0,6,3,1,3,0,NONE,"fatigue,headache",MEDIUM
+f8ced1d4-7e4b-44eb-b015-62d64efd0bba,49,male,156.0,298.0,241.0,5,3,2,3,1,GENERAL,"body pain,weakness",HIGH
+9327a1a6-ab6d-4591-9739-4942df6f3510,41,male,143.0,142.0,214.0,6,1,4,1,0,NONE,"dizziness,nausea",MEDIUM
+fdd2ec18-d1ef-4cb6-b002-2b6d3075dbb1,83,other,118.0,294.0,203.0,4,2,4,1,0,NONE,"fatigue,headache",MEDIUM
+ef8c5eda-dc0f-4d2d-b76b-389716cf746b,29,other,116.0,249.0,166.0,4,1,1,2,0,NONE,"body pain,weakness",MEDIUM
+a9e6b1d5-ec22-4436-b31e-03f4965528f2,42,other,114.0,280.0,258.0,4,1,2,2,0,NONE,"body pain,weakness",MEDIUM
+b9b0cccf-cbe7-4851-983c-4c810159a2c3,85,female,128.0,278.0,79.0,5,3,4,3,1,ICU,"fatigue,headache",MEDIUM
+ca57d0e0-8465-4845-88ba-a2b4a17199c1,52,male,145.0,299.0,88.0,4,1,3,1,0,NONE,"fever,cough",MEDIUM
+5ef1b8f3-abd2-48fa-98e8-b50efdb1ae7a,84,female,122.0,135.0,195.0,5,2,3,1,0,NONE,"dizziness,nausea",MEDIUM
+9f308d39-5919-4670-bfe7-2e38c7fd5943,27,other,107.0,267.0,99.0,3,0,4,3,0,NONE,"chest pain,breathlessness",LOW
+742e0205-6c8e-402e-bb43-8d93fe701d64,48,male,130.0,152.0,95.0,3,0,2,2,0,NONE,"fever,cough",LOW
+f01da89c-e52c-4cf8-9b93-6eae440b575f,65,male,179.0,180.0,156.0,3,2,1,0,0,NONE,"chest pain,breathlessness",MEDIUM
+b7b78761-7777-47c0-a03d-064650be7bbb,34,other,155.0,242.0,102.0,6,1,2,2,0,NONE,"dizziness,nausea",MEDIUM
+5f8e4424-792c-4eac-bea7-dae0d8865187,65,other,101.0,262.0,136.0,4,1,3,3,1,PRIVATE,"dizziness,nausea",MEDIUM
+437afe36-72e7-4e11-ba7d-c127061b34dd,42,other,177.0,274.0,145.0,3,1,1,2,0,NONE,"chest pain,breathlessness",MEDIUM
+293779ec-ec5e-4c1c-a8d0-cb9a0084eb24,83,other,160.0,175.0,225.0,6,1,4,2,0,NONE,"fever,cough",MEDIUM
+a3e190a8-416b-44a4-bdd2-25915190985a,82,female,155.0,287.0,161.0,6,2,4,1,1,GENERAL,"body pain,weakness",HIGH
+03181f96-4f17-418b-9278-d0f1675f88d3,84,female,95.0,244.0,228.0,6,3,3,0,1,GENERAL,"fever,cough",HIGH
+7145ef4f-0eb5-4ca9-ba40-ed91a1ec00ff,46,female,127.0,285.0,115.0,6,3,2,0,0,NONE,"dizziness,nausea",MEDIUM
+5a6bdce0-3b8c-4a49-8dc1-933a5c45c884,46,male,124.0,163.0,186.0,4,2,2,1,0,NONE,"chest pain,breathlessness",MEDIUM
+e695e5ef-01ca-4944-bcf1-01441527464a,71,male,141.0,293.0,79.0,5,2,1,1,0,NONE,"body pain,weakness",MEDIUM
+b738d382-6a1a-4b6d-ba93-83da4aff349e,19,female,103.0,282.0,94.0,3,0,3,3,0,NONE,"dizziness,nausea",LOW
+20a14b93-213c-4038-992c-e16d0060c93b,28,other,116.0,142.0,187.0,6,1,4,0,0,NONE,"body pain,weakness",MEDIUM
+17485735-53ed-4fb4-9f1f-0cdaa6e16085,46,female,177.0,257.0,252.0,3,0,1,2,0,NONE,"fatigue,headache",MEDIUM
+a2051152-2429-4a62-b7bb-423caf16f307,49,female,177.0,292.0,105.0,6,1,4,2,1,PRIVATE,"chest pain,breathlessness",MEDIUM
+c3dc9bbf-65dd-40e0-89ef-83c765e73f4b,43,other,174.0,206.0,248.0,3,1,4,2,0,NONE,"fever,cough",MEDIUM
+d291543d-8916-4f9a-ab68-2e49a7a13807,58,other,117.0,159.0,204.0,6,1,1,3,1,ICU,"body pain,weakness",MEDIUM
+272f826b-c546-4d38-9751-6ea2afcfea93,31,female,111.0,199.0,100.0,6,2,4,0,0,NONE,"fatigue,headache",LOW
+f0f15819-8536-4867-8e3e-3742a859de2c,79,other,134.0,158.0,176.0,5,2,4,0,1,PRIVATE,"body pain,weakness",MEDIUM
+c54c552a-b8fb-49a7-b685-5a58bde0e5c2,65,other,149.0,270.0,208.0,4,2,2,2,0,NONE,"fever,cough",HIGH
+0bf3f497-c55f-41e1-a821-263d0175cf20,28,other,134.0,196.0,90.0,6,3,3,0,0,NONE,"chest pain,breathlessness",MEDIUM
+ed4e2e63-322e-4917-8770-495f35c7b146,62,other,112.0,287.0,113.0,4,0,2,2,0,NONE,"body pain,weakness",LOW
+5b28ab3c-9e6d-4497-aa64-6096d41b7af4,33,male,109.0,251.0,166.0,6,3,4,1,0,NONE,"fever,cough",HIGH
+cf466408-6868-4488-a6e5-fd69a24a70d1,77,female,167.0,143.0,76.0,5,1,4,0,0,NONE,"body pain,weakness",MEDIUM
+6a60be39-63a5-4202-b500-dca07506db92,64,female,133.0,246.0,206.0,6,4,4,2,0,NONE,"fever,cough",HIGH
+1910be91-883d-49a7-8f08-62a186b269c1,49,other,163.0,174.0,197.0,5,1,1,0,0,NONE,"fatigue,headache",MEDIUM
+91166db9-c293-4086-851c-35db41575e52,60,male,128.0,278.0,173.0,6,1,4,1,0,NONE,"fatigue,headache",MEDIUM
+f391ddc3-bf1e-4dcf-91f8-996b98c89466,59,other,158.0,284.0,191.0,5,1,1,3,0,NONE,"fatigue,headache",HIGH
+09754156-e419-4a3b-a9f1-409ec02a11dd,49,other,118.0,255.0,238.0,3,2,2,3,0,NONE,"fever,cough",MEDIUM
+d9fb112c-c18a-45ed-9513-d4b336ba17d5,51,other,118.0,275.0,172.0,6,1,2,2,0,NONE,"fatigue,headache",MEDIUM
+c5bf72d2-32ec-4186-bf5e-b1a1bd462a63,29,other,105.0,158.0,231.0,6,3,2,1,0,NONE,"chest pain,breathlessness",MEDIUM
+d797cbd9-6946-44a5-a4b2-7e08115f705b,85,male,151.0,291.0,178.0,6,0,3,0,0,NONE,"fatigue,headache",MEDIUM
+b9e12594-8cc5-4d17-a9f5-08b7df4b701b,44,male,178.0,241.0,252.0,3,1,1,1,0,NONE,"fatigue,headache",HIGH
+8a1e68a8-15a4-4c5c-b95a-1167374c826b,20,female,172.0,177.0,71.0,6,2,4,1,0,NONE,"body pain,weakness",MEDIUM
+b8b57540-06f4-4ec1-a2f8-93aad2193f33,29,male,114.0,294.0,90.0,3,1,1,3,0,NONE,"fever,cough",MEDIUM
+d8bd4446-4907-454f-850f-19edaa1bd37b,46,other,162.0,204.0,90.0,6,2,4,1,0,NONE,"fever,cough",MEDIUM
+a492051c-2777-478d-8e50-d17233a21731,43,female,129.0,222.0,173.0,4,0,1,2,1,PRIVATE,"dizziness,nausea",MEDIUM
+72f6cd48-e75f-43ef-9c9c-f1d4558d68ae,37,female,103.0,212.0,248.0,5,1,3,0,0,NONE,"dizziness,nausea",MEDIUM
+e99fc737-0e73-4f89-9e3c-adcf19eb3472,30,female,149.0,188.0,237.0,4,1,1,0,0,NONE,"chest pain,breathlessness",MEDIUM
+44692ae0-5fc7-45ab-b878-cb1f7788ba8c,22,other,98.0,168.0,193.0,3,1,1,2,1,ICU,"fatigue,headache",MEDIUM
+92a24b23-877c-4774-a126-988efde89c3e,50,male,175.0,241.0,128.0,6,2,4,1,0,NONE,"body pain,weakness",MEDIUM
+8897b0c9-8f17-49ca-afc0-adcd6290932e,19,other,155.0,297.0,152.0,5,2,2,1,1,ICU,"fatigue,headache",MEDIUM
+98aab2b5-2539-40d1-bafe-7b24ef4562cc,58,female,118.0,199.0,246.0,6,2,3,2,0,NONE,"fever,cough",MEDIUM
+ddd59cf9-c268-4e26-b229-c1c82decc459,28,male,95.0,297.0,75.0,5,0,4,1,0,NONE,"dizziness,nausea",LOW
+e34059f2-9ea5-4bca-be3f-f657e0a97559,75,other,114.0,172.0,89.0,5,2,4,0,0,NONE,"dizziness,nausea",LOW
+a0cde82e-888c-432d-867a-9f398097d469,33,female,153.0,222.0,173.0,6,1,4,2,0,NONE,"fatigue,headache",HIGH
+c12008ac-d236-4f50-af0b-4cedfbe29a45,52,male,151.0,214.0,188.0,5,2,1,0,1,ICU,"fatigue,headache",MEDIUM
+a9a34d6e-1073-4a2c-a593-d8c3b987320a,40,male,130.0,245.0,151.0,6,2,1,1,0,NONE,"fever,cough",MEDIUM
+bf1aa5b9-d570-4e3a-a3f8-55a4646935a5,51,female,165.0,162.0,250.0,4,0,3,1,0,NONE,"body pain,weakness",MEDIUM
+99c21a11-4369-4dcf-9c5b-e1557ee7a334,30,female,119.0,157.0,122.0,5,3,3,2,0,NONE,"body pain,weakness",MEDIUM
+d52b5098-4f9f-4c5f-9507-e60841491c58,38,male,123.0,211.0,77.0,4,2,1,0,0,NONE,"dizziness,nausea",LOW
+0e0df377-4aef-4217-a7e5-25f7a1697da4,43,other,154.0,249.0,239.0,3,1,4,1,0,NONE,"dizziness,nausea",HIGH
+6ba34a05-5f90-4395-a41e-70f4e016c3e3,74,male,107.0,200.0,101.0,3,1,2,2,0,NONE,"body pain,weakness",LOW
+de24487c-3d57-4050-8dd5-e7064d0a96f9,51,male,162.0,175.0,198.0,4,2,1,0,0,NONE,"dizziness,nausea",MEDIUM
+46e6e3ff-8281-45bc-976a-50c4fae3c314,73,other,100.0,213.0,92.0,4,1,2,2,1,GENERAL,"chest pain,breathlessness",LOW
+d59d7cdb-bf32-414d-b704-db55068e056d,28,other,124.0,215.0,154.0,4,1,3,1,0,NONE,"fever,cough",LOW
+6b261ae1-ca8a-41d2-a3cf-b685b2175c28,56,male,157.0,218.0,131.0,5,3,4,0,0,NONE,"dizziness,nausea",MEDIUM
+141e5bcb-6e76-4edb-9979-5c510243ead8,38,male,100.0,269.0,195.0,4,1,3,3,1,GENERAL,"body pain,weakness",MEDIUM
+2a088625-2c44-4fb8-87e8-6419e7c65734,62,other,169.0,182.0,212.0,4,1,4,0,0,NONE,"fever,cough",MEDIUM
+e1ae61d3-b9b6-425b-85a7-bc45fa79dec4,27,male,107.0,287.0,167.0,4,1,1,2,0,NONE,"dizziness,nausea",MEDIUM
+d36c8b02-85b2-4b6e-8e1b-ca5ae2847587,71,other,179.0,255.0,79.0,6,1,3,0,0,NONE,"fatigue,headache",MEDIUM
+248d2c1e-3b55-42f5-9f66-0bb01852174a,52,other,168.0,179.0,134.0,3,1,2,2,0,NONE,"fatigue,headache",MEDIUM
+6a3e9ec9-eee0-42f7-b861-c0f63b728b93,65,female,178.0,295.0,117.0,3,2,3,1,0,NONE,"dizziness,nausea",MEDIUM
+0a9f391d-2b2c-4322-aae4-a4397114e357,38,male,110.0,275.0,103.0,3,0,1,2,0,NONE,"dizziness,nausea",LOW
+68e4f88c-d83e-4a05-9b51-cf6ac2b7d076,67,other,137.0,243.0,109.0,6,2,2,0,0,NONE,"dizziness,nausea",MEDIUM
+03980027-abfd-4356-a97e-30a62ec98194,45,other,149.0,249.0,260.0,6,2,4,1,0,NONE,"fatigue,headache",HIGH
+229217bc-db1e-47a4-a585-f718c13cbd05,36,other,150.0,266.0,202.0,3,0,2,1,0,NONE,"body pain,weakness",MEDIUM
+144e54f3-87b4-4669-b751-8b834079c63f,74,female,171.0,215.0,204.0,6,3,1,3,0,NONE,"fatigue,headache",HIGH
+b1e0b8aa-cfc0-4a93-b1a7-97604330e8ee,83,female,124.0,233.0,150.0,5,1,1,2,1,GENERAL,"body pain,weakness",MEDIUM
+d65ce281-a590-4696-a0f0-b4947f7c8302,70,male,150.0,274.0,206.0,5,0,2,0,0,NONE,"fatigue,headache",MEDIUM
+f2bd14b3-60a3-4f17-a3f6-65aeb14b46c3,19,male,138.0,132.0,188.0,3,1,1,1,0,NONE,"chest pain,breathlessness",MEDIUM
+7412bb03-9a91-4077-a077-d59b7f9864f7,28,other,135.0,294.0,256.0,6,2,1,1,0,NONE,"fever,cough",MEDIUM
+5eab00a0-d1c5-42ef-86e5-ff3b50ad4f9c,76,male,129.0,172.0,71.0,5,2,1,3,0,NONE,"fever,cough",LOW
+3c7235d4-fd1c-4ef0-98ab-1d22a2687291,49,female,117.0,263.0,207.0,5,2,1,1,0,NONE,"chest pain,breathlessness",MEDIUM
+4d5ed9c1-9e66-4683-8ba8-3f90059c2463,44,male,121.0,179.0,210.0,5,2,3,0,0,NONE,"fever,cough",MEDIUM
+f80c4783-5436-48c3-8ef7-93d160ba6a71,45,other,109.0,195.0,232.0,6,2,4,1,0,NONE,"chest pain,breathlessness",MEDIUM
+96a35cc4-415b-4bc3-b114-e342ce5aed3f,22,other,115.0,215.0,193.0,5,1,4,1,0,NONE,"fatigue,headache",MEDIUM
+3ad3a489-2757-4ffa-afae-5a7d29a89c55,45,female,152.0,152.0,137.0,5,1,3,3,0,NONE,"fatigue,headache",MEDIUM
+1856a761-c9ba-40a6-8f1b-dc44a3415f6f,42,male,158.0,235.0,97.0,6,2,3,3,0,NONE,"fever,cough",MEDIUM
+7e33e274-5f72-4cb9-9f9d-3ba5dce39921,47,female,165.0,134.0,105.0,5,1,4,2,0,NONE,"body pain,weakness",MEDIUM
+a61388a9-ec00-4e3f-994e-ef067f511158,66,other,102.0,135.0,259.0,4,2,1,1,0,NONE,"body pain,weakness",MEDIUM
+2cf7f437-a400-4e88-ba15-efa59fbd0d9e,85,male,125.0,264.0,146.0,6,1,1,3,1,PRIVATE,"body pain,weakness",MEDIUM
+94f5802b-bb9e-41d4-9e9b-e207d3703d97,50,other,99.0,160.0,138.0,3,0,2,3,0,NONE,"body pain,weakness",LOW
+451c38e8-513e-4ac8-8bff-389bd208b551,22,male,105.0,227.0,171.0,4,1,4,1,0,NONE,"fever,cough",MEDIUM
+c74d5b9b-e0fc-4837-aa13-5df6553c8b4f,33,other,114.0,203.0,199.0,3,1,2,2,0,NONE,"fatigue,headache",MEDIUM
+d7e32bf0-0752-4b5e-83fa-614fc4a3a0cb,48,female,109.0,300.0,146.0,4,2,2,1,0,NONE,"fatigue,headache",MEDIUM
+30d10b0b-9175-4bac-b6f1-4911d9d51403,20,male,172.0,238.0,254.0,3,1,3,2,0,NONE,"fever,cough",HIGH
+a12392d1-b816-40be-b2e5-a42cb7cf0953,24,other,102.0,151.0,156.0,5,1,3,0,0,NONE,"dizziness,nausea",LOW
+a5751bfa-b9b0-450f-8c0a-8c06ad83543c,72,female,167.0,277.0,224.0,3,0,1,1,0,NONE,"dizziness,nausea",MEDIUM
+a1ca2baa-b339-4db3-8b08-bcbe3b33f5f5,47,male,171.0,130.0,258.0,6,2,4,1,1,GENERAL,"body pain,weakness",MEDIUM
+20fd7bb9-3f0a-4ca8-b762-f5a822cd1a2c,31,male,114.0,291.0,247.0,3,0,3,2,0,NONE,"fever,cough",MEDIUM
+2750c2fc-ff28-478a-a866-48d6b5e902f5,48,female,180.0,246.0,174.0,5,0,3,3,1,ICU,"dizziness,nausea",MEDIUM
+23fe1294-ffe2-4b98-ad0e-bad738111096,23,female,148.0,300.0,193.0,5,2,1,2,0,NONE,"dizziness,nausea",HIGH
+156cb6ce-7bcb-4de8-aa35-2b964a4fe3e0,48,female,116.0,282.0,150.0,6,4,2,1,0,NONE,"fever,cough",MEDIUM
+4b9e3e45-7e34-4cd2-807e-b6c2a70ffe3b,53,female,118.0,210.0,236.0,5,3,3,1,0,NONE,"chest pain,breathlessness",MEDIUM
+6a740323-1ef5-45c9-9fa0-8f3ef797efad,68,male,127.0,141.0,202.0,5,1,1,0,0,NONE,"fever,cough",MEDIUM
+aa7411e5-060c-41bf-aae7-8346cfce73ce,79,other,125.0,160.0,178.0,5,2,1,2,0,NONE,"fatigue,headache",MEDIUM
+92c5698c-2e99-4e29-bb54-e37024bed350,45,female,110.0,203.0,196.0,5,1,3,3,0,NONE,"body pain,weakness",MEDIUM
+ca608578-d0c7-45bd-8678-34c5a98ea58c,46,male,134.0,292.0,86.0,5,1,3,3,0,NONE,"dizziness,nausea",MEDIUM
+49c7ec3d-a2f4-4d5d-b0db-aa6e5bdf263b,81,female,103.0,236.0,131.0,6,1,1,1,0,NONE,"chest pain,breathlessness",MEDIUM
+9bbad225-0b12-4963-88b4-ebd9334fb5b7,33,female,132.0,248.0,179.0,5,3,1,3,0,NONE,"body pain,weakness",HIGH
+5ebe65cb-dbef-4e5f-bc43-d924e20cfde1,77,other,119.0,256.0,197.0,5,2,1,1,0,NONE,"fatigue,headache",MEDIUM

@@ -1,0 +1,16 @@
+patient_id,age,gender,blood_pressure,cholesterol,blood_sugar,total_lab_tests,abnormal_lab_count,total_appointments,active_medications_count,is_admitted,bed_type,symptoms,risk_level
+8c095434-75f9-45dd-a7a3-68ad39969a15,45,male,130.5,210.0,105.0,2,2,1,1,0,NONE,"fever,cough",MEDIUM
+4658dee5-f555-4d60-8665-b754e7f3aab5,60,female,145.0,255.0,132.0,3,3,2,1,0,NONE,"fever,cough",HIGH
+9bf4bd33-9c88-4311-b3d0-b18b9d454b74,35,male,118.0,182.0,93.0,2,0,1,0,0,NONE,"fever,cough",LOW
+88664562-2098-4e53-a383-b655927dc87a,52,female,140.0,235.0,118.0,2,2,1,1,0,NONE,"fever,cough",MEDIUM
+91ede89a-a5d1-444d-9cb2-6a148823f17f,58,male,158.0,278.0,145.0,4,4,3,3,0,NONE,"fever,cough",HIGH
+368aeb57-0db0-4f66-b3d2-8eaedde35770,28,female,110.0,168.0,87.0,1,0,1,0,0,NONE,"fever,cough",LOW
+6a34e754-e2d2-4823-b687-070aedfede3f,42,male,126.0,198.0,101.0,1,0,0,1,0,NONE,"fever,cough",LOW
+b9b1d0b7-aef9-4079-8caa-43bc36e6e382,33,female,115.0,175.0,90.0,0,0,1,0,0,NONE,"fever,cough",LOW
+591787a3-43c2-4798-836f-598b09bbb0bc,65,male,162.0,290.0,155.0,2,2,2,2,0,NONE,"fever,cough",HIGH
+1c63a202-e2e8-4cff-bab2-67546aa144e3,38,female,122.0,192.0,97.0,1,0,1,0,0,NONE,"fever,cough",LOW
+2cdbcc6f-0585-4ea9-8ac7-0e8312f00c0f,47,male,135.0,220.0,110.0,0,0,1,1,0,NONE,"fever,cough",MEDIUM
+f8de9537-3d59-4c0b-970c-d931a23467fe,55,female,148.0,262.0,128.0,2,2,1,1,0,NONE,"fever,cough",HIGH
+1444627f-97aa-4c86-bdce-c9f708ddc2e3,29,male,112.0,160.0,85.0,0,0,1,0,0,NONE,"fever,cough",LOW
+1464e20a-2673-4c41-a4f6-a11bde07ecaa,44,female,132.0,215.0,108.0,1,1,1,1,0,NONE,"fever,cough",MEDIUM
+b085c998-28aa-4a17-abc2-da965976b5db,70,male,168.0,305.0,160.0,4,4,3,3,0,NONE,"fever,cough",HIGH

@@ -1,0 +1,26 @@
+# env
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# venv
+venv/
+env/
+.venv/
+health_record/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+
+# alembic cache only
+alembic/__pycache__/
