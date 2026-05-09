@@ -67,7 +67,7 @@ from app.database import Base
 from app.models.doctor import Doctor
 from app.models.patients import Patient
 from app.models.bed import Bed
-from app.models.bed_allocation import Bed_allocation
+from app.models.bed_allocation import BedAllocation
 
 target_metadata = Base.metadata
 # other values from the config, defined by the needs of env.py,

@@ -4,5 +4,6 @@ from app.models.appointments import Appointment
 from app.models.medications import Medication
 from app.models.lab_results import LabResult
 from app.models.bed import Bed
-from app.models.bed_allocation import Bed_allocation
+from app.models.bed_allocation import BedAllocation
 from app.models.doctor_leave import DoctorLeave
+from app.models.users import User

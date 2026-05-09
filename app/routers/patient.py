@@ -5,8 +5,20 @@ from app.services.patient import PatientService
 from app.schemas.patients import PatientCreate, PatientUpdate, PatientResponse
 from typing import List
 from uuid import UUID
+from dependencies.auth import get_current_user, require_role
+from app.auth.roles import (
+    ADMIN,
+    STAFF,
+    RECEPTION,
+    MEDICAL
+)
 
-router = APIRouter(prefix="/api/v1/patients", tags=["Patients"])
+router = APIRouter(
+    prefix="/api/v1/patients",
+    tags=["Patients"],
+    dependencies=[Depends(require_role(STAFF))]
+)
+
 
 @router.get("/", response_model=List[PatientResponse])
 def get_all_patients(db: Session = Depends(get_db)):
@@ -21,13 +33,21 @@ def get_patient(patient_id: UUID, db: Session = Depends(get_db)):
     return PatientService(db).get_patient(patient_id)
 
 @router.post("/", response_model=PatientResponse, status_code=201)
-def create_patient(data: PatientCreate, db: Session = Depends(get_db)):
+def create_patient(data: PatientCreate, 
+                   db: Session = Depends(get_db),
+                   current_user=Depends(require_role(RECEPTION))
+                ):
     return PatientService(db).create_patient(data)
 
 @router.put("/{patient_id}", response_model=PatientResponse)
-def update_patient(patient_id: UUID, data: PatientUpdate, db: Session = Depends(get_db)):
+def update_patient(patient_id: UUID, 
+                   data: PatientUpdate, 
+                   db: Session = Depends(get_db),
+                   current_user=Depends(require_role(STAFF))):
     return PatientService(db).update_patient(patient_id, data)
 
 @router.delete("/{patient_id}")
-def delete_patient(patient_id: UUID, db: Session = Depends(get_db)):
+def delete_patient(patient_id: UUID, 
+                   db: Session = Depends(get_db),
+                   current_user=Depends(require_role(STAFF))):
     return PatientService(db).delete_patient(patient_id)

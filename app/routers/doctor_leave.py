@@ -11,9 +11,19 @@ from app.schemas.doctor_leave import (
     DoctorLeaveUpdate
 )
 from app.services.doctor_leaves import DoctorLeaveService
+from app.auth.roles import (
+    ADMIN,
+    STAFF,
+    RECEPTION,
+    MEDICAL
+)
+from dependencies.auth import get_current_user, require_role
 
-
-router = APIRouter(prefix="/doctor-leaves", tags=["Doctor Leaves"])
+router = APIRouter(
+    prefix="/doctor-leaves",
+    tags=["Doctor Leaves"],
+    dependencies=[Depends(require_role(STAFF))]
+)
 
 
 @router.get("/", response_model=List[DoctorLeaveResponse])
@@ -50,7 +60,8 @@ def get_leaves_by_doctor_id(
 @router.post("/", response_model=DoctorLeaveResponse)
 def create_leave(
     data: DoctorLeaveCreate,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    current_user=Depends(require_role(ADMIN))
 ):
     service = DoctorLeaveService(db)
     return service.create_leave(data)
@@ -60,7 +71,8 @@ def create_leave(
 def update_leave(
     leave_id: int,
     data: DoctorLeaveUpdate,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    current_user=Depends(require_role(ADMIN))
 ):
     service = DoctorLeaveService(db)
     return service.update_leave(leave_id, data)
@@ -69,7 +81,8 @@ def update_leave(
 @router.delete("/{leave_id}")
 def delete_leave(
     leave_id: int,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    current_user=Depends(require_role(ADMIN))
 ):
     service = DoctorLeaveService(db)
     return service.delete_leave(leave_id)

@@ -29,7 +29,7 @@ class BaseRepository(Generic[ModelType]):
         self.db.refresh(db_obj)
         return db_obj
 
-    def update(self, id, obj_data: dict) -> Optional[ModelType]:
+    def update(self, id, obj_data) -> Optional[ModelType]:
         db_obj = self.get_by_id(id)
         if not db_obj:
             return None

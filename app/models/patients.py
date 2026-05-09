@@ -23,3 +23,4 @@ class Patient(Base):
     appointments  = relationship("Appointment", back_populates="patient")
     lab_results   = relationship("LabResult",   back_populates="patient")
     medications   = relationship("Medication",  back_populates="patient")
+    bed_allocations = relationship("BedAllocation",back_populates="patient")

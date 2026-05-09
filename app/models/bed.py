@@ -13,4 +13,4 @@ class Bed(Base):
     bed_type=Column(String,nullable=False) # ICU ,General,Emergency
     is_available=Column(Boolean,default=True)
     
-    
+    bed_allocations = relationship("BedAllocation",back_populates="bed")
